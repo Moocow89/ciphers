@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cipher Decryption</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <section class="header">
+      <h1 class="header-title">Cipher Decryption</h1>
+      <p class="header-description">An interactive decryption app</p>
+      <select class="header-dropdown" name="">
+        <option class="header-dropdown-item" selected value="Caeser Cipher">Caeser Cipher</option>
+        <option class="header-dropdown-item" value="Vigenére Cipher">Vigenére Cipher</option>
+        <option class="header-dropdown-item" value=""></option>
+        <option class="header-dropdown-item" value=""></option>
+        <option class="header-dropdown-item" value=""></option>
+        <option class="header-dropdown-item" value=""></option>
+      </select>
+    </section>
+    <section id="caesarCipher" class="caesar">
+      <h2 class="caesar-title">Caesar/Substitution Cipher</h2>
+      <form class="caesar-form">
+          <textarea class="caesar-form-field" type="text">Input text to decrypt here...</textarea>
+          <input class="caesar-form-submit" type="submit">
+      </form>
+    </section>
+    <script type="text/javascript" src="/src/app.js"></script>
+  </body>
+</html>

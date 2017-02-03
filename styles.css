@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  background-color: #222;
+  color: #fff;
+}
+
+.header {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ margin: auto;
+}
+
+.caesar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.caesar-form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+}
+
+.caesar-form-field{
+  width: 100%;
+  height: 200px;
+}
